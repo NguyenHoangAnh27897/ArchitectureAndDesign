@@ -26,5 +26,20 @@ namespace UIRecruiment.Controllers
 
             return View();
         }
+
+        public ActionResult AddResumes()
+        {
+            return View();
+        }
+
+        public ActionResult BrowerJobs()
+        {
+            return View();
+        }
+
+        public ActionResult LogIn()
+        {
+            return View();
+        }
     }
 }
