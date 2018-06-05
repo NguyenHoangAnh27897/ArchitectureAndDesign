@@ -52,3 +52,29 @@ C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIHumanResource\UIHumanResource
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.csproj.CopyComplete
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.dll
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.pdb
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\UIHumanResource.dll.config
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\UIHumanResource.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\UIHumanResource.pdb
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Antlr3.Runtime.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Newtonsoft.Json.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Helpers.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Mvc.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Optimization.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Razor.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Razor.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\WebGrease.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Helpers.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Mvc.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Optimization.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Razor.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Razor.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Newtonsoft.Json.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Antlr3.Runtime.pdb
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.csprojResolveAssemblyReference.cache
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.pdb

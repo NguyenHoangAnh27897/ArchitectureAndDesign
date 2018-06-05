@@ -69,3 +69,6 @@ N:\API\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\obj
 N:\API\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Cors.dll
 N:\API\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.Cors.dll
 N:\API\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.Cors.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Cors.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.Cors.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.Cors.xml
