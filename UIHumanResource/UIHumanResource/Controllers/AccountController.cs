@@ -13,5 +13,9 @@ namespace UIHumanResource.Controllers
         {
             return View();
         }
+        public ActionResult ViewList()
+        {
+            return View();
+        }
     }
 }
