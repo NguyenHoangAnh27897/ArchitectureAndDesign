@@ -24,6 +24,7 @@ D:\Ar0.1\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Antlr3.Runtime.pdb
 D:\Ar0.1\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.csprojResolveAssemblyReference.cache
 D:\Ar0.1\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.dll
 D:\Ar0.1\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.pdb
+<<<<<<< HEAD
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll.config
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.pdb
@@ -52,3 +53,38 @@ C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\D
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.csproj.CopyComplete
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.dll
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.pdb
+=======
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll.config
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.pdb
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Antlr3.Runtime.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Microsoft.Web.Infrastructure.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Newtonsoft.Json.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Helpers.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Mvc.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Optimization.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Razor.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.Deployment.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.Razor.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\WebGrease.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Helpers.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Mvc.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Optimization.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Razor.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.Deployment.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.Razor.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Newtonsoft.Json.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Antlr3.Runtime.pdb
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.csprojResolveAssemblyReference.cache
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.pdb
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Net.Http.Formatting.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Cors.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.Cors.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.dll
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Net.Http.Formatting.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.xml
+N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.Cors.xml
+>>>>>>> 7752b2d4984e2346cd4e75c849fe51d2dc26e0b7

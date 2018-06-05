@@ -136,4 +136,51 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    function infoUngvien() {
+        var ungvien = `<div class="manager-resumes-item">
+                        <div class="manager-content">
+                            <a href="resume.html"><img class="resume-thumb" src="~/Content/assets/img/jobs/avatar.jpg" alt=""></a>
+                            <div class="manager-info">
+                                <div class="manager-name">
+                                    <h4><a href="#">John Doe</a></h4>
+                                    <h5>Front-end developer</h5>
+                                </div>
+                                <div class="manager-meta">
+                                    <span class="location"><i class="ti-location-pin"></i> Cupertino, CA, USA</span>
+                                    <span class="rate"><i class="ti-time"></i> $55 per hour</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="update-date">
+                            <p class="status">
+                                <strong>Updated on:</strong> Fab 22, 2017
+                            </p>
+                            <div class="action-btn">
+                                <a class="btn btn-xs btn-gray btn-hide" href="#">Hide</a>
+                                <a class="btn btn-xs btn-gray btn-edit" href="#">Edit</a>
+                                <a class="btn btn-xs btn-danger btn-delete" href="#">Delete</a>
+                            </div>
+                        </div>
+                    </div>`;
+    }
+    
+    $(document).ready(function() {
+        var $hide = $('a.btn-hide'),
+            $edit = $('a.btn-edit'),
+            $delete = $('a.btn-delete');
+        $.ajax({
+            type: "GET",
+            url: 'http://localhost:25888/api/recruiment',
+            dataType: "json",
+            success: function (data) {
+                console.log(data);
+            },
+            error: function (err) {
+                alert('No Valid Data');
+            }
+        });
+    });
+</script>
   

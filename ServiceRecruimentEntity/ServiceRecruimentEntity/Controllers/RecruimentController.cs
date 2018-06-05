@@ -7,11 +7,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using ServiceRecruimentEntity.Models;
 
 namespace ServiceRecruimentEntity.Controllers
 {
+    [EnableCors(origins: "http://localhost:25888/api/recruiment", headers: "accept,content-type,origin,x-my-header", methods: "*")]
     public class RecruimentController : ApiController
     {
         private RecruimentEntities db = new RecruimentEntities();
