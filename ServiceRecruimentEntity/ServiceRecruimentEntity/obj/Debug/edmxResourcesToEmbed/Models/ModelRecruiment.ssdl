@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HumanResourceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'HumanResource.dbo.TTUT' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TTUT">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="FullName" />
+      <PropertyRef Name="DayofBirth" />
+      <PropertyRef Name="PhoneNumber" />
+      <PropertyRef Name="Email" />
+      <PropertyRef Name="ApplyPosition" />
+      <PropertyRef Name="DateofApplication" />
+      <PropertyRef Name="FileAttach" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DayofBirth" Type="date" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ApplyPosition" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DateofApplication" Type="date" Nullable="false" />
+    <Property Name="FileAttach" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="HumanResourceModelStoreContainer">
+    <EntitySet Name="TTUT" EntityType="Self.TTUT" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[TTUT].[ID] AS [ID], 
+[TTUT].[FullName] AS [FullName], 
+[TTUT].[DayofBirth] AS [DayofBirth], 
+[TTUT].[PhoneNumber] AS [PhoneNumber], 
+[TTUT].[Email] AS [Email], 
+[TTUT].[ApplyPosition] AS [ApplyPosition], 
+[TTUT].[DateofApplication] AS [DateofApplication], 
+[TTUT].[FileAttach] AS [FileAttach]
+FROM [dbo].[TTUT] AS [TTUT]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
