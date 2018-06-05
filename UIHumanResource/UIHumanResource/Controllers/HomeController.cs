@@ -6,14 +6,18 @@ using System.Web.Mvc;
 
 namespace UIHumanResource.Controllers
 {
-    public class AccountController : Controller
+    public class HomeController : Controller
     {
-        // GET: Account
-        public ActionResult Login()
+        // GET: Home
+        public ActionResult ViewList()
         {
             return View();
         }
-        public ActionResult ViewList()
+        public ActionResult LogIn()
+        {
+            return View();
+        }
+        public ActionResult ViewListEmployers()
         {
             return View();
         }

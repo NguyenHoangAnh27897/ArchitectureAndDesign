@@ -3,9 +3,26 @@
     ViewBag.Title = "ViewList";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<div>
+    <ul class="nav navbar-nav">
+        <li class="drop">
+            <a class="active" href="/Home/ViewList" style="color:red">
+               <strong> Manage Applicator </strong> <i class="fa fa-angle-down"></i>
+            </a>
+            </li>
+        <li class="drop">
+            <a class="active" href="/Home/ViewListEmployers" style="color:red">
+                <strong> Manage Employers</strong>  <i class="fa fa-angle-down"></i>
+            </a>
+           
+        </li>
+    </ul>
+
+</div>
+<br />
 <div class="card-body">
     <table class="table">
-        <thead >
+        <thead>
             <tr>
                 <th scope="col" style="color:blue">ID</th>
                 <th scope="col" style="color:blue">FullName</th>
@@ -47,3 +64,4 @@
         </tbody>
     </table>
 </div>
+
