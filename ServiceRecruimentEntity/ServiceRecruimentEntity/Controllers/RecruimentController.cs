@@ -13,7 +13,6 @@ using ServiceRecruimentEntity.Models;
 
 namespace ServiceRecruimentEntity.Controllers
 {
-    [EnableCors(origins: "http://localhost:25888/api/recruiment", headers: "accept,content-type,origin,x-my-header", methods: "*")]
     public class RecruimentController : ApiController
     {
         private RecruimentEntities db = new RecruimentEntities();

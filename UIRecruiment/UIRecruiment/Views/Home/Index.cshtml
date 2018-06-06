@@ -30,106 +30,7 @@
             <div class="col-md-8 col-sm-8 col-xs-12">
                 <div class="job-alerts-item candidates">
                     <h3 class="alerts-title">Manage Resumes</h3>
-                    <div class="manager-resumes-item">
-                        <div class="manager-content">
-                            <a href="resume.html"><img class="resume-thumb" src="~/Content/assets/img/jobs/avatar.jpg" alt=""></a>
-                            <div class="manager-info">
-                                <div class="manager-name">
-                                    <h4><a href="#">John Doe</a></h4>
-                                    <h5>Front-end developer</h5>
-                                </div>
-                                <div class="manager-meta">
-                                    <span class="location"><i class="ti-location-pin"></i> Cupertino, CA, USA</span>
-                                    <span class="rate"><i class="ti-time"></i> $55 per hour</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="update-date">
-                            <p class="status">
-                                <strong>Updated on:</strong> Fab 22, 2017
-                            </p>
-                            <div class="action-btn">
-                                <a class="btn btn-xs btn-gray" href="#">Hide</a>
-                                <a class="btn btn-xs btn-gray" href="#">Edit</a>
-                                <a class="btn btn-xs btn-danger" href="#">Delete</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="manager-resumes-item">
-                        <div class="manager-content">
-                            <a href="resume.html"><img class="resume-thumb" src="~/Content/assets/img/jobs/avatar.jpg" alt=""></a>
-                            <div class="manager-info">
-                                <div class="manager-name">
-                                    <h4><a href="#">John Doe</a></h4>
-                                    <h5>Front-end developer</h5>
-                                </div>
-                                <div class="manager-meta">
-                                    <span class="location"><i class="ti-location-pin"></i> Cupertino, CA, USA</span>
-                                    <span class="rate"><i class="ti-time"></i> $55 per hour</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="update-date">
-                            <p class="status">
-                                <strong>Updated on:</strong> Fab 22, 2017
-                            </p>
-                            <div class="action-btn">
-                                <a class="btn btn-xs btn-gray" href="#">Hide</a>
-                                <a class="btn btn-xs btn-gray" href="#">Edit</a>
-                                <a class="btn btn-xs btn-danger" href="#">Delete</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="manager-resumes-item">
-                        <div class="manager-content">
-                            <a href="resume.html"><img class="resume-thumb" src="~/Content/assets/img/jobs/avatar.jpg" alt=""></a>
-                            <div class="manager-info">
-                                <div class="manager-name">
-                                    <h4><a href="#">John Doe</a></h4>
-                                    <h5>Front-end developer</h5>
-                                </div>
-                                <div class="manager-meta">
-                                    <span class="location"><i class="ti-location-pin"></i> Cupertino, CA, USA</span>
-                                    <span class="rate"><i class="ti-time"></i> $55 per hour</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="update-date">
-                            <p class="status">
-                                <strong>Updated on:</strong> Fab 22, 2017
-                            </p>
-                            <div class="action-btn">
-                                <a class="btn btn-xs btn-gray" href="#">Hide</a>
-                                <a class="btn btn-xs btn-gray" href="#">Edit</a>
-                                <a class="btn btn-xs btn-danger" href="#">Delete</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="manager-resumes-item">
-                        <div class="manager-content">
-                            <a href="resume.html"><img class="resume-thumb" src="~/Content/assets/img/jobs/avatar.jpg" alt=""></a>
-                            <div class="manager-info">
-                                <div class="manager-name">
-                                    <h4><a href="#">John Doe</a></h4>
-                                    <h5>Front-end developer</h5>
-                                </div>
-                                <div class="manager-meta">
-                                    <span class="location"><i class="ti-location-pin"></i> Cupertino, CA, USA</span>
-                                    <span class="rate"><i class="ti-time"></i> $55 per hour</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="update-date">
-                            <p class="status">
-                                <strong>Updated on:</strong> Fab 22, 2017
-                            </p>
-                            <div class="action-btn">
-                                <a class="btn btn-xs btn-gray" href="#">Hide</a>
-                                <a class="btn btn-xs btn-gray" href="#">Edit</a>
-                                <a class="btn btn-xs btn-danger" href="#">Delete</a>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="item-candidates"></div>
                     <a class="btn btn-common btn-sm" href="add-resume.html">Add new resume</a>
                 </div>
             </div>
@@ -138,14 +39,14 @@
 </div>
 
 <script type="text/javascript">
-    function infoUngvien() {
+    function infoUngvien(data) {
         var ungvien = `<div class="manager-resumes-item">
                         <div class="manager-content">
                             <a href="resume.html"><img class="resume-thumb" src="~/Content/assets/img/jobs/avatar.jpg" alt=""></a>
                             <div class="manager-info">
                                 <div class="manager-name">
-                                    <h4><a href="#">John Doe</a></h4>
-                                    <h5>Front-end developer</h5>
+                                    <h4><a href="#">${data.FullName}</a></h4>
+                                    <h5>${data.ApplyPosition}</h5>
                                 </div>
                                 <div class="manager-meta">
                                     <span class="location"><i class="ti-location-pin"></i> Cupertino, CA, USA</span>
@@ -155,7 +56,7 @@
                         </div>
                         <div class="update-date">
                             <p class="status">
-                                <strong>Updated on:</strong> Fab 22, 2017
+                                <strong>Updated on:</strong> ${data.DateofApplication}
                             </p>
                             <div class="action-btn">
                                 <a class="btn btn-xs btn-gray btn-hide" href="#">Hide</a>
@@ -164,18 +65,22 @@
                             </div>
                         </div>
                     </div>`;
+          return ungvien;
     }
     
     $(document).ready(function() {
         var $hide = $('a.btn-hide'),
             $edit = $('a.btn-edit'),
-            $delete = $('a.btn-delete');
+            $delete = $('a.btn-delete'),
+            $resume = $('div#item-candidates');
         $.ajax({
             type: "GET",
             url: 'http://localhost:25888/api/recruiment',
             dataType: "json",
             success: function (data) {
-                console.log(data);
+                for(var emoi in data) {
+                    $resume.append(infoUngvien(data[emoi]));
+                }
             },
             error: function (err) {
                 alert('No Valid Data');

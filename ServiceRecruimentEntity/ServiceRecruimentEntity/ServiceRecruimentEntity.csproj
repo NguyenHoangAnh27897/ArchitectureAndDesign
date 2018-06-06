@@ -240,12 +240,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <None Include="_CreateNewNuGetPackage\DoNotModify\NuGet.exe" />
-    <Content Include="_CreateNewNuGetPackage\RunMeToUploadNuGetPackage.cmd" />
-    <Content Include="_CreateNewNuGetPackage\DoNotModify\UploadNuGetPackage.ps1" />
-    <Content Include="_CreateNewNuGetPackage\DoNotModify\New-NuGetPackage.ps1" />
-    <Content Include="_CreateNewNuGetPackage\DoNotModify\CreateNuGetPackage.ps1" />
-    <Content Include="_CreateNewNuGetPackage\Config.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
