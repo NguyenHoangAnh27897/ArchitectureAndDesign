@@ -4,7 +4,19 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="HumanResourceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="HumanResourceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'HumanResource.dbo.DSTK' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="DSTK">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="User Name" />
+            <PropertyRef Name="Password" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
         <!--Errors Found During Generation:
 warning 6002: The table/view 'HumanResource.dbo.TTNV' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="TTNV">
@@ -31,7 +43,16 @@ warning 6002: The table/view 'HumanResource.dbo.TTNV' does not have a primary ke
           <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="WorkatBranch" Type="nvarchar" MaxLength="50" Nullable="false" />
         </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'HumanResource.dbo.TTUT' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityContainer Name="HumanResourceModelStoreContainer">
+          <EntitySet Name="DSTK" EntityType="Self.DSTK" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[DSTK].[ID] AS [ID], 
+[DSTK].[User Name] AS [User Name], 
+[DSTK].[Password] AS [Password]
+FROM [dbo].[DSTK] AS [DSTK]</DefiningQuery>
+          </EntitySet>
           <EntitySet Name="TTNV" EntityType="Self.TTNV" store:Type="Tables" store:Schema="dbo">
             <DefiningQuery>SELECT 
 [TTNV].[ID] AS [ID], 
@@ -47,8 +68,7 @@ warning 6002: The table/view 'HumanResource.dbo.TTNV' does not have a primary ke
 FROM [dbo].[TTNV] AS [TTNV]</DefiningQuery>
           </EntitySet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="HumanResourceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -78,7 +98,18 @@ FROM [dbo].[TTNV] AS [TTNV]</DefiningQuery>
         </EntityType>
         <EntityContainer Name="HumanResourceEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="TTNVs" EntityType="Self.TTNV" />
+          <EntitySet Name="DSTKs" EntityType="HumanResourceModel.DSTK" />
         </EntityContainer>
+        <EntityType Name="DSTK">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="User_Name" />
+            <PropertyRef Name="Password" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -98,6 +129,15 @@ FROM [dbo].[TTNV] AS [TTNV]</DefiningQuery>
                 <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
                 <ScalarProperty Name="WorkatBranch" ColumnName="WorkatBranch" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DSTKs">
+            <EntityTypeMapping TypeName="HumanResourceModel.DSTK">
+              <MappingFragment StoreEntitySet="DSTK">
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="User_Name" ColumnName="User Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

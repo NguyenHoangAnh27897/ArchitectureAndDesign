@@ -26,5 +26,6 @@ namespace ServiceHumanResourceEntity.Models
         }
     
         public DbSet<TTNV> TTNVs { get; set; }
+        public DbSet<DSTK> DSTKs { get; set; }
     }
 }
