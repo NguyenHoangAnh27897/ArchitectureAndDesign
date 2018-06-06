@@ -104,3 +104,31 @@ D:\Ar0.1\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Antlr3.Runtim
 D:\Ar0.1\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.csprojResolveAssemblyReference.cache
 D:\Ar0.1\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.dll
 D:\Ar0.1\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.pdb
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\UIHumanResource.dll.config
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\UIHumanResource.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\UIHumanResource.pdb
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Antlr3.Runtime.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Newtonsoft.Json.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Helpers.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Mvc.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Optimization.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Razor.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Deployment.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Razor.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\WebGrease.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Helpers.xml
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Mvc.xml
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Optimization.xml
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Razor.xml
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.xml
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Deployment.xml
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Razor.xml
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Newtonsoft.Json.xml
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Antlr3.Runtime.pdb
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.csprojAssemblyReference.cache
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.csproj.CoreCompileInputs.cache
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.csproj.CopyComplete
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.dll
+C:\Users\THUY TIEN\Desktop\ThayHuy\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.pdb

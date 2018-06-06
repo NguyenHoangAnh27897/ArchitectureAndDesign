@@ -780,6 +780,7 @@ nav#menu span.fa.fa-bars:hover {
   color: #fff;
   position: relative;
   width: 100%;
+  height: 200px;
 }
 .section-intro:before {
   content: "";
