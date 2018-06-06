@@ -113,5 +113,25 @@ namespace ServiceHumanResourceEntity.Controllers
         {
             return db.DSTKs.Count(e => e.ID == id) > 0;
         }
+
+        public bool CheckAccount(string username, string pass)
+        {
+            var ch = db.DSTKs.ToList();
+            foreach (var item in ch)
+            {
+                if (item.User_Name.Equals(username))
+                {
+                    if (item.Password.Equals(pass))
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+            return false;
+        }
     }
 }
