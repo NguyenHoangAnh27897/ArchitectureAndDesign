@@ -8,6 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
+using Newtonsoft.Json.Linq;
 using ServiceHumanResourceEntity.Models;
 
 namespace ServiceHumanResourceEntity.Controllers
@@ -113,25 +114,26 @@ namespace ServiceHumanResourceEntity.Controllers
         {
             return db.DSTKs.Count(e => e.ID == id) > 0;
         }
-
-        public bool CheckAccount(string username, string pass)
+        [HttpPost]
+        public IHttpActionResult CheckAccount(string json)
         {
+            dynamic data = JObject.Parse(json);
             var ch = db.DSTKs.ToList();
             foreach (var item in ch)
             {
-                if (item.User_Name.Equals(username))
+                if (item.User_Name.Equals(data.username))    
                 {
-                    if (item.Password.Equals(pass))
+                    if (item.Password.Equals(data.pass))
                     {
-                        return true;
+                        return Json(new {msg="Thanh Cong"});
                     }
                     else
                     {
-                        return false;
+                       return Json(new {msg="Thanh Cong"});
                     }
                 }
             }
-            return false;
+            return Json(new { msg = "Thanh Cong" });
         }
     }
 }
