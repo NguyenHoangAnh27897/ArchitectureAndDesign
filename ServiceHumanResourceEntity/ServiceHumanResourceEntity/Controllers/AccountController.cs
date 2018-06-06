@@ -124,25 +124,5 @@ namespace ServiceHumanResourceEntity.Controllers
         {
             return db.DSTKs.Count(e => e.ID == id) > 0;
         }
-        [HttpPost]
-        public IHttpActionResult CheckAccount(string username, string pass)
-        {
-            var ch = db.DSTKs.ToList();
-            foreach (var item in ch)
-            {
-                if (item.User_Name.Equals(username))
-                {
-                    if (item.Password.Equals(pass))
-                    {
-                        return Json(new { msg = "Thanh Cong" });
-                    }
-                    else
-                    {
-                        return Json(new { msg = "User hoặc Pass bị sai" });
-                    }
-                }
-            }
-            return Json(new { msg = "User hoặc Pass bị sai" });
-        }
     }
 }
