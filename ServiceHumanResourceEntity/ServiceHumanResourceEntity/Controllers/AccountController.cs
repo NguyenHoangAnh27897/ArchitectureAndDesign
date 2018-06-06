@@ -24,16 +24,26 @@ namespace ServiceHumanResourceEntity.Controllers
         }
 
         // GET api/Account/5
-        [ResponseType(typeof(DSTK))]
-        public IHttpActionResult GetDSTK(int id)
+        //[ResponseType(typeof(DSTK))]
+        public IHttpActionResult GetDSTK(string username, string pass)
         {
-            DSTK dstk = db.DSTKs.Find(id);
-            if (dstk == null)
+            //dynamic data = JObject.Parse(json);
+            var ch = db.DSTKs.ToList();
+            foreach (var item in ch)
             {
-                return NotFound();
+                if (item.User_Name.Equals(username))
+                {
+                    if (item.Password.Equals(pass))
+                    {
+                        return Json(new { msg = "Thanh Cong" });
+                    }
+                    else
+                    {
+                        return Json(new { msg = "Thanh Cong" });
+                    }
+                }
             }
-
-            return Ok(dstk);
+            return Json(new { msg = "Thanh Cong" });
         }
 
         // PUT api/Account/5
@@ -114,26 +124,26 @@ namespace ServiceHumanResourceEntity.Controllers
         {
             return db.DSTKs.Count(e => e.ID == id) > 0;
         }
-        [HttpPost]
-        public IHttpActionResult CheckAccount(string json)
-        {
-            dynamic data = JObject.Parse(json);
-            var ch = db.DSTKs.ToList();
-            foreach (var item in ch)
-            {
-                if (item.User_Name.Equals(data.username))    
-                {
-                    if (item.Password.Equals(data.pass))
-                    {
-                        return Json(new {msg="Thanh Cong"});
-                    }
-                    else
-                    {
-                       return Json(new {msg="Thanh Cong"});
-                    }
-                }
-            }
-            return Json(new { msg = "Thanh Cong" });
-        }
+        //[HttpPost]
+        //public IHttpActionResult CheckAccount(string json)
+        //{
+        //    dynamic data = JObject.Parse(json);
+        //    var ch = db.DSTKs.ToList();
+        //    foreach (var item in ch)
+        //    {
+        //        if (item.User_Name.Equals(data.username))    
+        //        {
+        //            if (item.Password.Equals(data.pass))
+        //            {
+        //                return Json(new {msg="Thanh Cong"});
+        //            }
+        //            else
+        //            {
+        //               return Json(new {msg="Thanh Cong"});
+        //            }
+        //        }
+        //    }
+        //    return Json(new { msg = "Thanh Cong" });
+        //}
     }
 }

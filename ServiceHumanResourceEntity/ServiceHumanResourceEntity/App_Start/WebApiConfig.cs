@@ -21,6 +21,10 @@ namespace ServiceHumanResourceEntity
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            config.Routes.MapHttpRoute(
+               name: "DefaultApi1",
+               routeTemplate: "api/{controller}/{username}&{pass}"
+           );
             config.Formatters.Add(config.Formatters.JsonFormatter);
         }
     }
