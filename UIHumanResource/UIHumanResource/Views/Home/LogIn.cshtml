@@ -11,6 +11,9 @@
                     <ul class="cd-switcher">
                         <li><a class="selected">LOGIN</a></li>
                     </ul>
+                    <div class="alert alert-danger" id="danger" style="display: none;">
+                        <strong>Lỗi!</strong> <span id="name_err"></span>
+                    </div>
                     <div id="cd-login" class="is-selected">
                         <div class="page-login-form">
                             <div class="form-group is-empty">
@@ -44,21 +47,26 @@
     $(document).ready(function () {
         $btn = $('button#btnLogin'),
         $user = $('input#username'),
+        $danger = $('div#danger'),
+        $name_err = $('span#name_err'),
         $pass = $('input#pass');
         $btn.click(function () {
             var infoAcc = {
                 username: $user.val(),
                 pass: $pass.val()
             }
-            console.log(infoAcc);
             $.ajax({
-                url: 'http://localhost:25889/api/account',
+                url: 'http://localhost:25889/Check/CheckAccount',
                 method: "Post",
                 dataType: "json",
                 data: infoAcc,
                 success: function (data) {
-                    alert(data);
-                    window.location.href = 'Home/ViewList';
+                    if (data.accept === true) {
+                        window.location.href = 'ViewList';
+                    } else {
+                        $danger.css('display', 'block');
+                        $name_err.html(data.msg);
+                    }
                 },
                 error: function () {
                     alert("Thât bại");

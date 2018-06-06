@@ -32,77 +32,14 @@
                                     <th>ID</th>
                                     <th>Full Name</th>
                                     <th>Date Of Birth</th>
-                                    <th>Gender</th>
-                                    <th class="text-right">Position</th>
-                                    <th>ID card</th>
-                                    <th class="text-right">Address</th>
                                     <th class="text-right">Phone number</th>
                                     <th class="text-right">Email</th>
-                                    <th class="text-right">Work at branch</th>
+                                    <th class="text-right">Position</th>
+                                    <th class="text-right">Address</th>
+                                    <th class="text-right">FileAttach</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <th>1</th>
-                                    <th>Nguyen Van Quan</th>
-                                    <th>3/3/1997</th>
-                                    <th>Female</th>
-                                    <th class="text-right">Tester</th>
-                                    <th>65741248</th>
-                                    <th class="text-right">Tran Hung Dao</th>
-                                    <th class="text-right">0655998619</th>
-                                    <th class="text-right">quanvan@gmail.com</th>
-                                    <th class="text-right">ABC</th>
-                                </tr>
-                                <tr>
-                                    <th>1</th>
-                                    <th>Nguyen Van Quan</th>
-                                    <th>3/3/1997</th>
-                                    <th>Female</th>
-                                    <th class="text-right">Tester</th>
-                                    <th>65741248</th>
-                                    <th class="text-right">Tran Hung Dao</th>
-                                    <th class="text-right">0655998619</th>
-                                    <th class="text-right">quanvan@gmail.com</th>
-                                    <th class="text-right">ABC</th>
-                                </tr>
-                                <tr>
-                                    <th>1</th>
-                                    <th>Nguyen Van Quan</th>
-                                    <th>3/3/1997</th>
-                                    <th>Female</th>
-                                    <th class="text-right">Tester</th>
-                                    <th>65741248</th>
-                                    <th class="text-right">Tran Hung Dao</th>
-                                    <th class="text-right">0655998619</th>
-                                    <th class="text-right">quanvan@gmail.com</th>
-                                    <th class="text-right">ABC</th>
-                                </tr>
-                                <tr>
-                                    <th>1</th>
-                                    <th>Nguyen Van Quan</th>
-                                    <th>3/3/1997</th>
-                                    <th>Female</th>
-                                    <th class="text-right">Tester</th>
-                                    <th>65741248</th>
-                                    <th class="text-right">Tran Hung Dao</th>
-                                    <th class="text-right">0655998619</th>
-                                    <th class="text-right">quanvan@gmail.com</th>
-                                    <th class="text-right">ABC</th>
-                                </tr>
-                                <tr>
-                                    <th>1</th>
-                                    <th>Nguyen Van Quan</th>
-                                    <th>3/3/1997</th>
-                                    <th>Female</th>
-                                    <th class="text-right">Tester</th>
-                                    <th>65741248</th>
-                                    <th class="text-right">Tran Hung Dao</th>
-                                    <th class="text-right">0655998619</th>
-                                    <th class="text-right">quanvan@gmail.com</th>
-                                    <th class="text-right">ABC</th>
-                                </tr>
-                            </tbody>
+                            <tbody id="tbody"></tbody>
                         </table>
                     </div>
                 </div>
@@ -110,4 +47,36 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var $tbody = $('tbody#tbody');
+        function resource(data) {
+            var human = `<tr>
+                        <td>${data.ID}</td>
+                        <td>${data.FullName}</td>
+                        <td>${data.DayofBirth}</td>
+                        <td class ="text-right">${data.PhoneNumber}</td>
+                        <td class ="text-right">${data.Email}</td>
+                        <td class ="text-right">${data.ApplyPosition}</td>
+                        <td class ="text-right">${data.DateofApplication}</td>
+                        <td class ="text-right">${data.FileAttach}</td>
+                    </tr>`;
+            return human;
+        }
+        $.ajax({
+            url: 'http://localhost:25888/api/recruiment',
+            method: 'Get',
+            dataType: 'json',
+            success: function(data) {
+                for(var ie in data) {
+                    $tbody.append(resource(data[ie]));
+                }
+            },
+            err: function(e) {
+                alert('No Valid');
+            }
+        });
+    });
+</script>
+
 

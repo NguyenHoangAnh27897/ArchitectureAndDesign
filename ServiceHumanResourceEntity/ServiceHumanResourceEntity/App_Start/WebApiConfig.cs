@@ -23,7 +23,8 @@ namespace ServiceHumanResourceEntity
             );
             config.Routes.MapHttpRoute(
                name: "DefaultApi1",
-               routeTemplate: "api/{controller}/{username}&{pass}"
+                routeTemplate: "api/{controller}/{check}",
+                defaults: new { check = RouteParameter.Optional }
            );
             config.Formatters.Add(config.Formatters.JsonFormatter);
         }

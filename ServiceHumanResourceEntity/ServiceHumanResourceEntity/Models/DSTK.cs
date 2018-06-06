@@ -11,7 +11,9 @@ namespace ServiceHumanResourceEntity.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.Web.Http.Results;
+    using System.Web.Mvc;
+
     public partial class DSTK
     {
         public int ID { get; set; }
