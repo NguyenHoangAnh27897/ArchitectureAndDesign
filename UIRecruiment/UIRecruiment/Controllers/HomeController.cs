@@ -36,10 +36,5 @@ namespace UIRecruiment.Controllers
         {
             return View();
         }
-
-        public ActionResult LogIn()
-        {
-            return View();
-        }
     }
 }

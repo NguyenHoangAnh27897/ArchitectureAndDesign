@@ -24,7 +24,6 @@ D:\Ar0.1\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Antlr3.Runtime.pdb
 D:\Ar0.1\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.csprojResolveAssemblyReference.cache
 D:\Ar0.1\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.dll
 D:\Ar0.1\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.pdb
-<<<<<<< HEAD
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll.config
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.pdb
@@ -53,7 +52,6 @@ C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\D
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.csproj.CopyComplete
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.dll
 C:\Users\THUY TIEN\Desktop\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.pdb
-=======
 N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll.config
 N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll
 N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.pdb
@@ -87,7 +85,6 @@ N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.dll
 N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Net.Http.Formatting.xml
 N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.xml
 N:\API\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.Cors.xml
->>>>>>> 7752b2d4984e2346cd4e75c849fe51d2dc26e0b7
 C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll.config
 C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll
 C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.pdb
