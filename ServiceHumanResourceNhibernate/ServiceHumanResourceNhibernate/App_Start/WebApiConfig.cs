@@ -12,7 +12,7 @@ namespace ServiceHumanResourceNhibernate
         {
             // Web API configuration and services
             var cors = new EnableCorsAttribute(origins: "*", headers: "*", methods: "*");
-            config.EnableCors(cors);    
+            config.EnableCors(cors);
             // Web API routes
             config.MapHttpAttributeRoutes();
 
@@ -21,6 +21,11 @@ namespace ServiceHumanResourceNhibernate
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            config.Routes.MapHttpRoute(
+               name: "DefaultApi1",
+                routeTemplate: "api/{controller}/{check}",
+                defaults: new { check = RouteParameter.Optional }
+           );
             config.Formatters.Add(config.Formatters.JsonFormatter);
         }
     }

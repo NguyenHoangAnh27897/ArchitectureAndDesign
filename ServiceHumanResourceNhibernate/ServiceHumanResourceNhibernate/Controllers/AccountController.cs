@@ -21,28 +21,28 @@ namespace ServiceHumanResourceNhibernate.Controllers
             }
         }
 
-        [HttpPost]
-        public IHttpActionResult CheckAccount(string username, string pass)
-        {
-            using (ISession session = NHibernateSession.OpenSessionACC())
-            {
-                var ch = session.Query<DSTK>().ToList();
-                foreach (var item in ch)
-                {
-                    if (item.UserName.Equals(username))
-                    {
-                        if (item.Password.Equals(pass))
-                        {
-                            return Json(new { msg = "Thanh Cong" });
-                        }
-                        else
-                        {
-                            return Json(new { msg = "User hoặc Pass bị sai" });
-                        }
-                    }
-                }
-                return Json(new { msg = "User hoặc Pass bị sai" });
-            }
-        }
+        //[HttpPost]
+        //public IHttpActionResult CheckAccount(string username, string pass)
+        //{
+        //    using (ISession session = NHibernateSession.OpenSessionACC())
+        //    {
+        //        var ch = session.Query<DSTK>().ToList();
+        //        foreach (var item in ch)
+        //        {
+        //            if (item.UserName.Equals(username))
+        //            {
+        //                if (item.Password.Equals(pass))
+        //                {
+        //                    return Json(new { msg = "Thanh Cong" });
+        //                }
+        //                else
+        //                {
+        //                    return Json(new { msg = "User hoặc Pass bị sai" });
+        //                }
+        //            }
+        //        }
+        //        return Json(new { msg = "User hoặc Pass bị sai" });
+        //    }
+        //}
     }
 }
