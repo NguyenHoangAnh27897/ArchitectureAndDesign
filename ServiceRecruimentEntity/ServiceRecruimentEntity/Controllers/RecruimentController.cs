@@ -71,18 +71,23 @@ namespace ServiceRecruimentEntity.Controllers
         }
 
         // POST api/Recruiment
-        [ResponseType(typeof(TTUT))]
-        public IHttpActionResult PostTTUT(TTUT ttut)
+        [HttpPost]
+        public IHttpActionResult PostTTUT(string fullname, string phonenumber, DateTime dob, string email, string applyposition, string file, DateTime doa)
         {
-            if (!ModelState.IsValid)
+            var list = new TTUT
             {
-                return BadRequest(ModelState);
-            }
-
-            db.TTUTs.Add(ttut);
+                FullName = fullname,
+                DayofBirth = dob,
+                PhoneNumber = phonenumber,
+                Email = email,
+                ApplyPosition = applyposition,
+                DateofApplication = doa,
+                FileAttach = file
+            };
+            db.TTUTs.Add(list);
             db.SaveChanges();
 
-            return CreatedAtRoute("DefaultApi", new { id = ttut.ID }, ttut);
+            return Json(new { msg = "Đăng ký ứng tuyển thành công", accept = true });
         }
 
         // DELETE api/Recruiment/5

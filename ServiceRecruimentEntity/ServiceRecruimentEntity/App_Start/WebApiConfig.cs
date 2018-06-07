@@ -11,8 +11,8 @@ namespace ServiceRecruimentEntity
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-            var cors = new EnableCorsAttribute(origins: "*", headers: "*", methods: "*");
-            config.EnableCors(cors);
+            //var cors = new EnableCorsAttribute(origins: "*", headers: "*", methods: "*");
+            //config.EnableCors(cors);
             // Web API routes
             config.MapHttpAttributeRoutes();
             config.Routes.MapHttpRoute(
@@ -20,6 +20,11 @@ namespace ServiceRecruimentEntity
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            config.Routes.MapHttpRoute(
+               name: "DefaultApi1",
+               routeTemplate: "api/{controller}/{resume}",
+               defaults: new { resume = RouteParameter.Optional }
+           );
             config.Formatters.Add(config.Formatters.JsonFormatter);
         }
     }
