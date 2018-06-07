@@ -8,6 +8,13 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="right-sideabr">
                     <div class="inner-box">
+                        <h4>Chọn Sever</h4>
+                        <select class="form-control" name="Product_Type" required>
+                            <option label="Chọn Sever" disabled hidden selected></option>
+                            <option value="http://localhost:25888/api/recruiment">Entity</option>
+                            <option value="http://localhost:25897/api/recruiment">Nhibernate</option>
+                        </select>
+
                         <h4>Manage Account</h4>
                         <ul class="lest item">
                             <li><a href="resume.html">My Resume</a></li>
@@ -39,6 +46,8 @@
 </div>
 
 <script type="text/javascript">
+
+    var url;
     function infoUngvien(data) {
         var ungvien = `<div class="manager-resumes-item">
                         <div class="manager-content">
@@ -67,26 +76,31 @@
                     </div>`;
           return ungvien;
     }
-    
+
     $(document).ready(function() {
         var $hide = $('a.btn-hide'),
             $edit = $('a.btn-edit'),
             $delete = $('a.btn-delete'),
-            $resume = $('div#item-candidates');
-            consone.log(data)
-        $.ajax({
-            type: "GET",
-            url: 'http://localhost:25888/api/recruiment',
-            dataType: "json",
-            success: function (data) {
-                for(var emoi in data) {
-                    $resume.append(infoUngvien(data[emoi]));
+            $type = $('select[name=Product_Type]'),
+            $resume = $('div#item-candidates'), url;
+        $type.change(function () {
+            url = $(this).val();
+            $.ajax({
+                type: "GET",
+                url: url,
+                dataType: "json",
+                success: function (data) {
+                    $resume.html('');
+                    for (var emoi in data) {
+                        $resume.append(infoUngvien(data[emoi]));
+                    }
+                },
+                error: function (err) {
+                    alert('No Valid Data');
                 }
-            },
-            error: function (err) {
-                alert('No Valid Data');
-            }
+            });
         });
     });
 </script>
+
   
