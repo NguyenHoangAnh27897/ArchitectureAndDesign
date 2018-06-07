@@ -41,3 +41,46 @@ C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceRecru
 C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\obj\Debug\ServiceRecruimentNhibernate.csprojResolveAssemblyReference.cache
 C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\obj\Debug\ServiceRecruimentNhibernate.dll
 C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\obj\Debug\ServiceRecruimentNhibernate.pdb
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\ServiceRecruimentNhibernate.dll.config
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\ServiceRecruimentNhibernate.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\ServiceRecruimentNhibernate.pdb
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Antlr3.Runtime.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Iesi.Collections.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Microsoft.Web.Infrastructure.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Newtonsoft.Json.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\NHibernate.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Remotion.Linq.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Remotion.Linq.EagerFetching.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Net.Http.Formatting.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Cors.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Helpers.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Http.Cors.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Http.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Http.WebHost.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Mvc.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Optimization.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Razor.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.WebPages.Deployment.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.WebPages.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.WebPages.Razor.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\WebGrease.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Antlr3.Runtime.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Iesi.Collections.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Newtonsoft.Json.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\NHibernate.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Remotion.Linq.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\Remotion.Linq.EagerFetching.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Net.Http.Formatting.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Http.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Http.Cors.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Helpers.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Http.WebHost.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Mvc.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Optimization.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.Razor.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.WebPages.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.WebPages.Deployment.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\bin\System.Web.WebPages.Razor.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\obj\Debug\ServiceRecruimentNhibernate.csprojResolveAssemblyReference.cache
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\obj\Debug\ServiceRecruimentNhibernate.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentNhibernate\ServiceRecruimentNhibernate\obj\Debug\ServiceRecruimentNhibernate.pdb

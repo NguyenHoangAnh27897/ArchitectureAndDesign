@@ -4,139 +4,99 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="job-alerts-item">
-    <h3 class="alerts-title">Manage applications</h3>
-    <div class="applications-content">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="thums">
-                    <img src="~/Content/assets/img/jobs/img-5.jpg" alt="">
-                </div>
-                <h3>Web Designer Meeded</h3>
-                <span>Quick Studio</span>
-            </div>
-            <div class="col-md-3">
-                <p><span class="full-time">Full-Time</span></p>
-            </div>
-            <div class="col-md-2">
-                <p>Nov 14th, 2017</p>
-            </div>
-            <div class="col-md-2">
-                <p>Rejected</p>
-            </div>
-        </div>
-    </div>
-    <div class="applications-content">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="thums">
-                    <img src="~/Content/assets/img/jobs/img-5.jpg" alt="">
-                </div>
-                <h3>Front-end developer needed</h3>
-                <span>Quick Studio</span>
-            </div>
-            <div class="col-md-3">
-                <p><span class="full-time">Full-Time</span></p>
-            </div>
-            <div class="col-md-2">
-                <p>Nov 14th, 2017</p>
-            </div>
-            <div class="col-md-2">
-                <p>Processed</p>
-            </div>
-        </div>
-    </div>
-    <div class="applications-content">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="thums">
-                    <img src="~/Content/assets/img/jobs/img-4.jpg" alt="">
-                </div>
-                <h3>We're looking for an Art Director</h3>
-                <span>Quick Studio</span>
-            </div>
-            <div class="col-md-3">
-                <p><span class="part-time">Part-Time</span></p>
-            </div>
-            <div class="col-md-2">
-                <p>Nov 14th, 2017</p>
-            </div>
-            <div class="col-md-2">
-                <p>Rejected</p>
-            </div>
-        </div>
-    </div>
-    <div class="applications-content">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="thums">
-                    <img src="~/Content/assets/img/jobs/img-3.jpg" alt="">
-                </div>
-                <h3>Web designer needed</h3>
-                <span>Quick Studio</span>
-            </div>
-            <div class="col-md-3">
-                <p><span class="full-time">Full-Time</span></p>
-            </div>
-            <div class="col-md-2">
-                <p>Nov 14th, 2017</p>
-            </div>
-            <div class="col-md-2">
-                <p>Approved</p>
-            </div>
-        </div>
-    </div>
-    <div class="applications-content">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="thums">
-                    <img src="~/Content/assets/img/jobs/img-2.jpg" alt="">
-                </div>
-                <h3>Looking for a Project Leader</h3>
-                <span>Quick Studio</span>
-            </div>
-            <div class="col-md-3">
-                <p><span class="full-time">Full-Time</span></p>
-            </div>
-            <div class="col-md-2">
-                <p>Nov 14th, 2017</p>
-            </div>
-            <div class="col-md-2">
-                <p>Rejected</p>
-            </div>
-        </div>
-    </div>
-    <div class="applications-content">
-        <div class="row">
-            <div class="col-md-5">
-                <div class="thums">
-                    <img src="~/Content/assets/img/jobs/img-1.jpg" alt="">
-                </div>
-                <h3>We're hiring an fullstack designer</h3>
-                <span>Quick Studio</span>
-            </div>
-            <div class="col-md-3">
-                <p><span class="part-time">Part-Time</span></p>
-            </div>
-            <div class="col-md-2">
-                <p>Nov 14th, 2017</p>
-            </div>
-            <div class="col-md-2">
-                <p>Rejected</p>
-            </div>
-        </div>
-    </div>
+<br />
+<h2 class="text-center"> Manage Employers</h2>
+<div class="container">
+    <h4>Chọn Sever</h4>
+    <select class="form-control" name="Product_Type" required>
+        <option label="Chọn Sever" disabled hidden selected></option>
+        <option value="http://localhost:25889/api/humanresource">Entity</option>
+        <option value="http://localhost:25898/api/humanresource">Nhibernate</option>
+    </select>
+</div>
+<div>
+    <ul class="nav navbar-nav">
+        <li class="drop">
+            <a class="active" href="/Home/ViewList" style="color:red">
+                <strong> Manage Applicator </strong> <i class="fa fa-angle-down"></i>
+            </a>
+        </li>
+        <li class="drop">
+            <a class="active" href="/Home/ViewListEmployers" style="color:red">
+                <strong> Manage Employers</strong>  <i class="fa fa-angle-down"></i>
+            </a>
 
-    <br>
-    <ul class="pagination">
-        <li class="active"><a href="#" class="btn btn-common"><i class="ti-angle-left"></i> prev</a></li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li class="active"><a href="#" class="btn btn-common">Next <i class="ti-angle-right"></i></a></li>
+        </li>
     </ul>
 
 </div>
+<br />
+<div class="main-content">
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="table-responsive table--no-card m-b-30">
+                        <table class="table table-borderless table-striped table-earning">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Full Name</th>
+                                    <th>Date Of Birth</th>
+                                    <th>Gender</th>
+                                    <th class="text-right">Position</th>
+                                    <th>ID card</th>
+                                    <th class="text-right">Address</th>
+                                    <th class="text-right">Phone number</th>
+                                    <th class="text-right">Email</th>
+                                    <th class="text-right">Work at branch</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var $tbody = $('tbody#tbody'),
+            $type = $('select[name=Product_Type]'),url;
+        function resource(data) {
+            var human = `<tr>
+                        <td>${data.ID}</td>
+                        <td>${data.FullName}</td>
+                        <td>${data.DayofBirth}</td>
+                        <td>${data.Gender}</td>
+                        <td class ="text-right">${data.Position}</td>
+                        <td class ="text-right">${data.IDCard}</td>
+                        <td class ="text-right">${data.Address}</td>
+                        <td class ="text-right">${data.PhoneNumber}</td>
+                        <td class ="text-right">${data.Email}</td>
+                        <td class ="text-right">${data.WorkatBranch}</td>
+                    </tr>`;
+            return human;
+        }
+
+        $type.change(function () {
+            url = $(this).val();
+            $.ajax({
+                url: url,
+                method: 'Get',
+                dataType: 'json',
+                success: function (data) {
+                    $tbody.html("");
+                    for (var ie in data) {
+                        $tbody.append(resource(data[ie]));
+                    }
+                },
+                err: function (e) {
+                    alert('No Valid');
+                }
+            });
+        });
+    });
+</script>
 

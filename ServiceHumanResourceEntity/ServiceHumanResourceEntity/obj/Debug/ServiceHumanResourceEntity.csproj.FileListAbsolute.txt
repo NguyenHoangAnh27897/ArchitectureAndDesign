@@ -76,3 +76,42 @@ N:\API\New\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResource
 N:\API\New\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.SqlServer.xml
 C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.SqlServer.dll
 C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.SqlServer.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\ServiceHumanResourceEntity.dll.config
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\ServiceHumanResourceEntity.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\ServiceHumanResourceEntity.pdb
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\Antlr3.Runtime.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.SqlServer.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\Microsoft.Web.Infrastructure.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\Newtonsoft.Json.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Net.Http.Formatting.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Cors.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Helpers.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Http.Cors.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Http.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Http.WebHost.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Mvc.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Optimization.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Razor.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.WebPages.Deployment.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.WebPages.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.WebPages.Razor.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\WebGrease.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.SqlServer.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\Newtonsoft.Json.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Net.Http.Formatting.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Http.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Http.Cors.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Helpers.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Http.WebHost.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Mvc.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Optimization.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.Razor.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.WebPages.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.WebPages.Deployment.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\System.Web.WebPages.Razor.xml
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\Antlr3.Runtime.pdb
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\obj\Debug\ServiceHumanResourceEntity.csprojResolveAssemblyReference.cache
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\obj\Debug\ServiceHumanResourceEntity.dll
+N:\API\Max new\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\obj\Debug\ServiceHumanResourceEntity.pdb

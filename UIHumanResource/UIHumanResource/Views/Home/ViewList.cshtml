@@ -3,6 +3,15 @@
     ViewBag.Title = "ViewList";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<br />
+<div class="container">
+    <h4>Chọn Sever</h4>
+    <select class="form-control" name="Product_Type" required>
+        <option label="Chọn Sever" disabled hidden selected></option>
+        <option value="http://localhost:25888/api/recruiment">Entity</option>
+        <option value="http://localhost:25897/api/recruiment">Nhibernate</option>
+    </select>
+</div>
 <div>
     <ul class="nav navbar-nav">
         <li class="drop">
@@ -49,7 +58,8 @@
 </div>
 <script type="text/javascript">
     $(document).ready(function () {
-        var $tbody = $('tbody#tbody');
+        var $tbody = $('tbody#tbody'),
+            $type = $('select[name=Product_Type]'),url;
         function resource(data) {
             var human = `<tr>
                         <td>${data.ID}</td>
@@ -63,20 +73,26 @@
                     </tr>`;
             return human;
         }
-        $.ajax({
-            url: 'http://localhost:25888/api/recruiment',
-            method: 'Get',
-            dataType: 'json',
-            success: function(data) {
-                for(var ie in data) {
-                    $tbody.append(resource(data[ie]));
+
+        $type.change(function () {
+            url = $(this).val();
+            $.ajax({
+                url: url,
+                method: 'Get',
+                dataType: 'json',
+                success: function (data) {
+                    $tbody.html("");
+                    for (var ie in data) {
+                        $tbody.append(resource(data[ie]));
+                    }
+                },
+                err: function (e) {
+                    alert('No Valid');
                 }
-            },
-            err: function(e) {
-                alert('No Valid');
-            }
+            });
         });
     });
 </script>
+
 
 
