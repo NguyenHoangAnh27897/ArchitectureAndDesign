@@ -20,8 +20,8 @@
     <EntitySetMapping Name="DSTKs">
       <EntityTypeMapping TypeName="HumanResourceModel.DSTK">
         <MappingFragment StoreEntitySet="DSTK">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
           <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="User_Name" ColumnName="User Name" />
           <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>

@@ -31,11 +31,11 @@
   <EntityType Name="DSTK">
     <Key>
       <PropertyRef Name="ID" />
-      <PropertyRef Name="User_Name" />
       <PropertyRef Name="Password" />
+      <PropertyRef Name="UserName" />
     </Key>
     <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="User_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>

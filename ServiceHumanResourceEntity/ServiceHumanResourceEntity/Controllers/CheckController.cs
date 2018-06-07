@@ -19,7 +19,7 @@ namespace ServiceHumanResourceEntity.Controllers
             var ch = db.DSTKs.ToList();
             foreach (var item in ch)
             {
-                if (item.User_Name.Equals(username))
+                if (item.UserName.Equals(username))
                 {
                     if (item.Password.Equals(pass))
                     {

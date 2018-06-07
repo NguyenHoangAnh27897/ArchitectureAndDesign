@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="true" assembly="ServiceHumanResourceNhibernate" namespace="ServiceHumanResourceNhibernate.Models.NHibernate">
+  <class name="TTNV" table="TTNV" dynamic-update="true" >
+    <cache usage="read-write"/>
+    <id name="Id" column="Id" type="string">
+      <generator class="native" />
+    </id>
+    <property name="ID" />
+    <property name="Id" />
+    <property name="FullName" />
+    <property name="DayofBirth" />
+    <property name="Gender" />
+    <property name="Position" />
+    <property name="IDCard" />
+    <property name="Address" />
+    <property name="PhoneNumber" />
+    <property name="Email" />
+    <property name="WorkatBranch" />
+  </class>
+</hibernate-mapping>

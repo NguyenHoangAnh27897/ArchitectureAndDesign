@@ -74,3 +74,5 @@ N:\API\New\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResource
 N:\API\New\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\Newtonsoft.Json.dll
 N:\API\New\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.SqlServer.dll
 N:\API\New\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.SqlServer.xml
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.SqlServer.dll
+C:\Users\hoang\Downloads\Programs\PortableGit\ArchitectureAndDesign\ServiceHumanResourceEntity\ServiceHumanResourceEntity\bin\EntityFramework.SqlServer.xml
