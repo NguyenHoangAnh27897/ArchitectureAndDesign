@@ -66,6 +66,8 @@
                     } else {
                         $danger.css('display', 'block');
                         $name_err.html(data.msg);
+                        $user.val("");
+                        $pass.val("");
                     }
                 },
                 error: function () {
