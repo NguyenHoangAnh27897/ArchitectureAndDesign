@@ -146,3 +146,40 @@ N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEn
 N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\obj\Debug\ServiceRecruimentEntity.csprojResolveAssemblyReference.cache
 N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\obj\Debug\ServiceRecruimentEntity.dll
 N:\API\Max new\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\obj\Debug\ServiceRecruimentEntity.pdb
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\ServiceRecruimentEntity.dll.config
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\ServiceRecruimentEntity.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\ServiceRecruimentEntity.pdb
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\Antlr3.Runtime.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\EntityFramework.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\Microsoft.Web.Infrastructure.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\Newtonsoft.Json.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Net.Http.Formatting.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Cors.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Helpers.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.Cors.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.WebHost.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Mvc.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Optimization.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Razor.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.WebPages.Deployment.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.WebPages.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.WebPages.Razor.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\WebGrease.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\EntityFramework.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\Newtonsoft.Json.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Net.Http.Formatting.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.Cors.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Helpers.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Http.WebHost.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Mvc.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Optimization.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.Razor.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.WebPages.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.WebPages.Deployment.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\System.Web.WebPages.Razor.xml
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\bin\Antlr3.Runtime.pdb
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\obj\Debug\ServiceRecruimentEntity.csprojResolveAssemblyReference.cache
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\obj\Debug\ServiceRecruimentEntity.dll
+D:\LAPTRINH\ArchitectureAndDesign\ServiceRecruimentEntity\ServiceRecruimentEntity\obj\Debug\ServiceRecruimentEntity.pdb

@@ -14,21 +14,21 @@ namespace ServiceRecruimentEntity.Controllers
         //
         // GET: /Resume/
         [HttpPost]
-        public ActionResult AddResume(string fullname, string email, string phonenumber, string doa, string dob, string applyposition, string file)
+        public ActionResult AddResume(string username, string email, string phone, string birthday, string position, string FileAttach)
         {
 
-            DateTime myDate = DateTime.Parse(doa); //Parse string => DateTime
+            DateTime myDate = DateTime.ParseExact(birthday,"yyyy-MM-dd",CultureInfo.InvariantCulture); //Parse string => DateTime
 
 
             //var list = new TTUT
             //{
-            //    FullName = fullname,
-            //    DayofBirth = doa,
-            //    PhoneNumber = phonenumber,
+            //    FullName = username,
+            //    DayofBirth = myDate,
+            //    PhoneNumber = phone,
             //    Email = email,
-            //    ApplyPosition = applyposition,
-            //    DateofApplication = dob,
-            //    FileAttach = file
+            //    ApplyPosition = position,
+            //    DateofApplication = DateTime.Now,
+            //    FileAttach = FileAttach
             //};
             //db.TTUTs.Add(list);
             //db.SaveChanges();

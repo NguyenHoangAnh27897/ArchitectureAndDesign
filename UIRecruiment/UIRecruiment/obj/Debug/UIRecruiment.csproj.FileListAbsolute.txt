@@ -184,3 +184,36 @@ N:\API\Max new\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Antlr3.Runtim
 N:\API\Max new\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.csprojResolveAssemblyReference.cache
 N:\API\Max new\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.dll
 N:\API\Max new\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.pdb
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll.config
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\UIRecruiment.pdb
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Antlr3.Runtime.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Microsoft.Web.Infrastructure.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Newtonsoft.Json.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Net.Http.Formatting.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Cors.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Helpers.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.Cors.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Mvc.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Optimization.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Razor.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.Deployment.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.Razor.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\WebGrease.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Newtonsoft.Json.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Net.Http.Formatting.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Http.Cors.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Helpers.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Mvc.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Optimization.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.Razor.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.Deployment.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\System.Web.WebPages.Razor.xml
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\bin\Antlr3.Runtime.pdb
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.csprojResolveAssemblyReference.cache
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.dll
+D:\LAPTRINH\ArchitectureAndDesign\UIRecruiment\UIRecruiment\obj\Debug\UIRecruiment.pdb
