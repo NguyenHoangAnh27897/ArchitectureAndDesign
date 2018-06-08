@@ -4,19 +4,10 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="HumanResourceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <!--Errors Found During Generation:
-warning 6002: The table/view 'HumanResource.dbo.TTUT' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+    <Schema Namespace="HumanResourceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="TTUT">
           <Key>
             <PropertyRef Name="ID" />
-            <PropertyRef Name="FullName" />
-            <PropertyRef Name="DayofBirth" />
-            <PropertyRef Name="PhoneNumber" />
-            <PropertyRef Name="Email" />
-            <PropertyRef Name="ApplyPosition" />
-            <PropertyRef Name="DateofApplication" />
-            <PropertyRef Name="FileAttach" />
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="FullName" Type="nvarchar" MaxLength="50" Nullable="false" />
@@ -28,47 +19,28 @@ warning 6002: The table/view 'HumanResource.dbo.TTUT' does not have a primary ke
           <Property Name="FileAttach" Type="nvarchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <EntityContainer Name="HumanResourceModelStoreContainer">
-          <EntitySet Name="TTUT" EntityType="Self.TTUT" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-[TTUT].[ID] AS [ID], 
-[TTUT].[FullName] AS [FullName], 
-[TTUT].[DayofBirth] AS [DayofBirth], 
-[TTUT].[PhoneNumber] AS [PhoneNumber], 
-[TTUT].[Email] AS [Email], 
-[TTUT].[ApplyPosition] AS [ApplyPosition], 
-[TTUT].[DateofApplication] AS [DateofApplication], 
-[TTUT].[FileAttach] AS [FileAttach]
-FROM [dbo].[TTUT] AS [TTUT]</DefiningQuery>
-          </EntitySet>
+          <EntitySet Name="TTUT" EntityType="Self.TTUT" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="HumanResourceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="RecruimentEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TTUTs" EntityType="HumanResourceModel.TTUT" />
+        </EntityContainer>
         <EntityType Name="TTUT">
           <Key>
             <PropertyRef Name="ID" />
-            <PropertyRef Name="FullName" />
-            <PropertyRef Name="DayofBirth" />
-            <PropertyRef Name="PhoneNumber" />
-            <PropertyRef Name="Email" />
-            <PropertyRef Name="ApplyPosition" />
-            <PropertyRef Name="DateofApplication" />
-            <PropertyRef Name="FileAttach" />
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FullName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="DayofBirth" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="ApplyPosition" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ApplyPosition" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="DateofApplication" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="FileAttach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FileAttach" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityContainer Name="RecruimentEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="TTUTs" EntityType="Self.TTUT" />
-        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -78,14 +50,14 @@ FROM [dbo].[TTUT] AS [TTUT]</DefiningQuery>
           <EntitySetMapping Name="TTUTs">
             <EntityTypeMapping TypeName="HumanResourceModel.TTUT">
               <MappingFragment StoreEntitySet="TTUT">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="FullName" ColumnName="FullName" />
-                <ScalarProperty Name="DayofBirth" ColumnName="DayofBirth" />
-                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="ApplyPosition" ColumnName="ApplyPosition" />
-                <ScalarProperty Name="DateofApplication" ColumnName="DateofApplication" />
                 <ScalarProperty Name="FileAttach" ColumnName="FileAttach" />
+                <ScalarProperty Name="DateofApplication" ColumnName="DateofApplication" />
+                <ScalarProperty Name="ApplyPosition" ColumnName="ApplyPosition" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="DayofBirth" ColumnName="DayofBirth" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

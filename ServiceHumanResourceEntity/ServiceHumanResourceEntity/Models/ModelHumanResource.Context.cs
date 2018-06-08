@@ -25,7 +25,7 @@ namespace ServiceHumanResourceEntity.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<TTNV> TTNVs { get; set; }
         public DbSet<DSTK> DSTKs { get; set; }
+        public DbSet<TTNV> TTNVs { get; set; }
     }
 }

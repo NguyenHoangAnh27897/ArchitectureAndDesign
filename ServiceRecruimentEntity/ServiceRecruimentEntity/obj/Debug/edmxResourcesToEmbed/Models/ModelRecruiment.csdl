@@ -1,26 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="HumanResourceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="RecruimentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TTUTs" EntityType="HumanResourceModel.TTUT" />
+  </EntityContainer>
   <EntityType Name="TTUT">
     <Key>
       <PropertyRef Name="ID" />
-      <PropertyRef Name="FullName" />
-      <PropertyRef Name="DayofBirth" />
-      <PropertyRef Name="PhoneNumber" />
-      <PropertyRef Name="Email" />
-      <PropertyRef Name="ApplyPosition" />
-      <PropertyRef Name="DateofApplication" />
-      <PropertyRef Name="FileAttach" />
     </Key>
     <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FullName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="DayofBirth" Type="DateTime" Nullable="false" Precision="0" />
-    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="ApplyPosition" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ApplyPosition" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="DateofApplication" Type="DateTime" Nullable="false" Precision="0" />
-    <Property Name="FileAttach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FileAttach" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
-  <EntityContainer Name="RecruimentEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="TTUTs" EntityType="Self.TTUT" />
-  </EntityContainer>
 </Schema>

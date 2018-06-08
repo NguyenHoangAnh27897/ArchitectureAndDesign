@@ -4,14 +4,14 @@
     <EntitySetMapping Name="TTUTs">
       <EntityTypeMapping TypeName="HumanResourceModel.TTUT">
         <MappingFragment StoreEntitySet="TTUT">
-          <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="FullName" ColumnName="FullName" />
-          <ScalarProperty Name="DayofBirth" ColumnName="DayofBirth" />
-          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="ApplyPosition" ColumnName="ApplyPosition" />
-          <ScalarProperty Name="DateofApplication" ColumnName="DateofApplication" />
           <ScalarProperty Name="FileAttach" ColumnName="FileAttach" />
+          <ScalarProperty Name="DateofApplication" ColumnName="DateofApplication" />
+          <ScalarProperty Name="ApplyPosition" ColumnName="ApplyPosition" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="DayofBirth" ColumnName="DayofBirth" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

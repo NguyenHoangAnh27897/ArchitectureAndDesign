@@ -1,31 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="HumanResourceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'HumanResource.dbo.DSTK' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="DSTK">
     <Key>
       <PropertyRef Name="ID" />
-      <PropertyRef Name="UserName" />
-      <PropertyRef Name="Password" />
     </Key>
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'HumanResource.dbo.TTNV' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="TTNV">
     <Key>
       <PropertyRef Name="ID" />
-      <PropertyRef Name="FullName" />
-      <PropertyRef Name="DayofBirth" />
-      <PropertyRef Name="Gender" />
-      <PropertyRef Name="Position" />
-      <PropertyRef Name="IDCard" />
-      <PropertyRef Name="Address" />
-      <PropertyRef Name="PhoneNumber" />
-      <PropertyRef Name="Email" />
-      <PropertyRef Name="WorkatBranch" />
     </Key>
     <Property Name="ID" Type="nvarchar" MaxLength="15" Nullable="false" />
     <Property Name="FullName" Type="nvarchar" MaxLength="50" Nullable="false" />
@@ -39,26 +24,7 @@ warning 6002: The table/view 'HumanResource.dbo.TTNV' does not have a primary ke
     <Property Name="WorkatBranch" Type="nvarchar" MaxLength="50" Nullable="false" />
   </EntityType>
   <EntityContainer Name="HumanResourceModelStoreContainer">
-    <EntitySet Name="DSTK" EntityType="Self.DSTK" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-[DSTK].[ID] AS [ID], 
-[DSTK].[UserName] AS [UserName], 
-[DSTK].[Password] AS [Password]
-FROM [dbo].[DSTK] AS [DSTK]</DefiningQuery>
-    </EntitySet>
-    <EntitySet Name="TTNV" EntityType="Self.TTNV" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-[TTNV].[ID] AS [ID], 
-[TTNV].[FullName] AS [FullName], 
-[TTNV].[DayofBirth] AS [DayofBirth], 
-[TTNV].[Gender] AS [Gender], 
-[TTNV].[Position] AS [Position], 
-[TTNV].[IDCard] AS [IDCard], 
-[TTNV].[Address] AS [Address], 
-[TTNV].[PhoneNumber] AS [PhoneNumber], 
-[TTNV].[Email] AS [Email], 
-[TTNV].[WorkatBranch] AS [WorkatBranch]
-FROM [dbo].[TTNV] AS [TTNV]</DefiningQuery>
-    </EntitySet>
+    <EntitySet Name="DSTK" EntityType="Self.DSTK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TTNV" EntityType="Self.TTNV" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>
