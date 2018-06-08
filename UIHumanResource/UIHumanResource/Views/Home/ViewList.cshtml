@@ -4,6 +4,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <br />
+<h2 class="text-center"> Manage Applicator</h2>
 <div class="container">
     <h4>Chọn Sever</h4>
     <select class="form-control" name="Product_Type" required>
@@ -11,45 +12,30 @@
         <option value="http://localhost:25888/api/recruiment">Entity</option>
         <option value="http://localhost:25897/api/recruiment">Nhibernate</option>
     </select>
-</div>
-<div>
-    <ul class="nav navbar-nav">
-        <li class="drop">
-            <a class="active" href="/Home/ViewList" style="color:red">
-                <strong> Manage Applicator </strong> <i class="fa fa-angle-down"></i>
-            </a>
-        </li>
-        <li class="drop">
-            <a class="active" href="/Home/ViewListEmployers" style="color:red">
-                <strong> Manage Employers</strong>  <i class="fa fa-angle-down"></i>
-            </a>
 
-        </li>
-    </ul>
-
-</div>
-<br />
-<div class="main-content">
-    <div class="section__content section__content--p30">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="table-responsive table--no-card m-b-30">
-                        <table class="table table-borderless table-striped table-earning">
-                            <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Full Name</th>
-                                    <th>Date Of Birth</th>
-                                    <th class="text-right">Phone number</th>
-                                    <th class="text-right">Email</th>
-                                    <th class="text-right">Position</th>
-                                    <th class="text-right">Address</th>
-                                    <th class="text-right">FileAttach</th>
-                                </tr>
-                            </thead>
-                            <tbody id="tbody"></tbody>
-                        </table>
+    <br />
+    <div class="main-content">
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="table-responsive table--no-card m-b-30">
+                            <table class="table table-borderless table-hover table-bordered table-earning">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Full Name</th>
+                                        <th>Date Of Birth</th>
+                                        <th>Phone number</th>
+                                        <th>Email</th>
+                                        <th>Position</th>
+                                        <th>Address</th>
+                                        <th>FileAttach</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody"></tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,11 +51,11 @@
                         <td>${data.ID}</td>
                         <td>${data.FullName}</td>
                         <td>${data.DayofBirth}</td>
-                        <td class ="text-right">${data.PhoneNumber}</td>
-                        <td class ="text-right">${data.Email}</td>
-                        <td class ="text-right">${data.ApplyPosition}</td>
-                        <td class ="text-right">${data.DateofApplication}</td>
-                        <td class ="text-right">${data.FileAttach}</td>
+                        <td>${data.PhoneNumber}</td>
+                        <td>${data.Email}</td>
+                        <td>${data.ApplyPosition}</td>
+                        <td>${data.DateofApplication}</td>
+                        <td>${data.FileAttach}</td>
                     </tr>`;
             return human;
         }

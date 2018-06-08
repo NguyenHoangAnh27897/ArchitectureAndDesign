@@ -21,5 +21,9 @@ namespace UIHumanResource.Controllers
         {
             return View();
         }
+        public ActionResult ResumeDetail()
+        {
+            return View();
+        }
     }
 }

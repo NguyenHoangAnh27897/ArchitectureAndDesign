@@ -184,3 +184,29 @@ N:\API\Max new\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Antlr3.
 N:\API\Max new\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.csprojResolveAssemblyReference.cache
 N:\API\Max new\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.dll
 N:\API\Max new\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.pdb
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\UIHumanResource.dll.config
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\UIHumanResource.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\UIHumanResource.pdb
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Antlr3.Runtime.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Microsoft.Web.Infrastructure.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Newtonsoft.Json.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Helpers.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Mvc.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Optimization.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Razor.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Deployment.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Razor.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\WebGrease.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Helpers.xml
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Mvc.xml
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Optimization.xml
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.Razor.xml
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.xml
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Deployment.xml
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\System.Web.WebPages.Razor.xml
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Newtonsoft.Json.xml
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\bin\Antlr3.Runtime.pdb
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.csprojResolveAssemblyReference.cache
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.dll
+N:\API\fina\ArchitectureAndDesign\UIHumanResource\UIHumanResource\obj\Debug\UIHumanResource.pdb

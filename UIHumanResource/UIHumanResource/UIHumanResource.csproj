@@ -294,6 +294,7 @@
     <Content Include="Views\Home\ViewList.cshtml" />
     <Content Include="Views\Home\LogIn.cshtml" />
     <Content Include="Views\Home\ViewListEmployers.cshtml" />
+    <Content Include="Views\Home\ResumeDetail.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
