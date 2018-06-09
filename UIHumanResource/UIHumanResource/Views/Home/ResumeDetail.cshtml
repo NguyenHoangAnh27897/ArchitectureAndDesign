@@ -34,13 +34,13 @@
 <script type="text/javascript">
     $(document).ready(function () {
         var $detail = $('div#detail'),
-            url = window.location.href, data, str;
+            url = "http://localhost:25888/api/recruiment", data, str;
         function resource(data) {
             var human = `<div class="col-md-8 col-sm-8 col-xs-12">
                 <div class="inner-box my-resume">
                     <div class="author-resume">
                         <div class="thumb">
-                            <img src="/Content/assets/img/resume/img-1.jpg" alt="">
+                            <img src="~/Content/assets/img/resume/img-1.jpg" alt="">
                         </div>
                         <div class="author-info">
                             <h3>Mark Anderson</h3>
@@ -86,10 +86,11 @@
             </div>`;
             return human;
         }
-        //str = url.substr(url.lastIndexOf('/'));
-        //data = {
-        //    id: str.split('/')[1] //ID json
-        //}
+        str = url.substr(url.lastIndexOf('/'));
+        data = {
+            id: str.split('/')[@ViewBag.id] //ID json
+        }
+        console.log(url);
         $.ajax({
             url: url,
             method: 'Get',
