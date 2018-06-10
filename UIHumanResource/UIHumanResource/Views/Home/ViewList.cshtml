@@ -47,7 +47,7 @@
         var $tbody = $('tbody#tbody'),
             $type = $('select[name=Product_Type]'),url;
         function resource(data) {
-            var human = `<tr>
+            var human = `<tr style="cursor:pointer;" onclick="myC(this)">
                         <td>${data.ID}</td>
                         <td>${data.FullName}</td>
                         <td>${data.DayofBirth}</td>
@@ -56,7 +56,6 @@
                         <td>${data.ApplyPosition}</td>
                         <td>${data.DateofApplication}</td>
                         <td>${data.FileAttach}</td>
-                        <td><a href="/Home/ResumeDetail/1">Detail</a></td>
                     </tr>`;
             return human;
         }
@@ -79,6 +78,11 @@
             });
         });
     });
+
+    function myC(e) {
+        window.location.href = "ResumeDetail/"+e.firstElementChild.textContent;
+    }
+
 </script>
 
 

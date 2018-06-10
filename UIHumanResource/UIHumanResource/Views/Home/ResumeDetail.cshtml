@@ -6,7 +6,7 @@
 
 <div id="content">
     <div class="container">
-        <div id="detail" class="row">
+        <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="right-sideabr">
                     <div class="inner-box">
@@ -28,22 +28,23 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <div id="detail" class="col-md-8 col-sm-8 col-xs-12"></div>
+            </div>
     </div>
 </div>
 <script type="text/javascript">
     $(document).ready(function () {
         var $detail = $('div#detail'),
-            url = "http://localhost:25888/api/recruiment", data, str;
+            url = "http://localhost:25888/api/recruiment", data, str, urlD = window.location.pathname;
         function resource(data) {
-            var human = `<div class="col-md-8 col-sm-8 col-xs-12">
+            var human = `
                 <div class="inner-box my-resume">
                     <div class="author-resume">
                         <div class="thumb">
-                            <img src="~/Content/assets/img/resume/img-1.jpg" alt="">
+                            <img src="/Content/assets/img/resume/img-1.jpg" alt="">
                         </div>
                         <div class="author-info">
-                            <h3>Mark Anderson</h3>
+                            <h3>${data.FullName}</h3>
                             <p class="sub-title">UI/UX Designer</p>
                             <p><span class="address"><i class="ti-location-pin"></i>Mahattan, NYC, USA</span> <span><i class="ti-phone"></i>(+01) 211-123-5678</span></p>
                             <div class="social-link">
@@ -55,7 +56,7 @@
                         </div>
                     </div>
                     <div class="about-me item">
-                        <h3>About Me <i class="ti-pencil"></i></h3>
+                        <h3>Detail <i class="ti-pencil"></i></h3>
                         <p>Nullam semper erat arcu, ac tincidunt sem venenatis vel. Curabitur a dolor ac ligula fermentum eusmod ac ullamcorper nulla. Integer blandit uitricies aliquam. Pellentesque quis dui varius, dapibus vilit id, ipsum. Morbi ac eros feugiat, lacinia elit ut, elementum turpis. Curabitur justo sapien, tempus sit amet ruturm eu, commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio hendririt eleif end tempor vitae augue. Fusce eget arcu et nibh dapibus maximus consectetur in est. Sed iaculis Luctus nibh sed veneatis. </p>
                     </div>
                     <div class="work-experence item">
@@ -82,24 +83,25 @@
                         <p>Bachelor of Computer Science</p>
                         <span class="date">2010-2014</span>
                     </div>
+                    <br/>
+                    <a href="mailto:w.a.f@gmail.com" class ="btn btn-danger">Send Email</a>
                 </div>
-            </div>`;
+                `;
             return human;
         }
-        str = url.substr(url.lastIndexOf('/'));
+        str = urlD.substr(urlD.lastIndexOf('/'));
         data = {
-            id: str.split('/')[@ViewBag.id] //ID json
+            id: str.split('/')[1] //ID json
         }
-        console.log(url);
         $.ajax({
             url: url,
             method: 'Get',
             dataType: 'json',
-            //data: data,
+            data: data,
             success: function (data) {
                 console.log(data);
-                //$detail.html("");
-                //$tbody.append(resource(data[ie]));
+                $detail.html("");
+                $detail.append(resource(data));
             },
             err: function (e) {
                 alert('No Valid');

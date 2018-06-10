@@ -25,9 +25,10 @@ namespace ServiceRecruimentEntity.Controllers
 
         // GET api/Recruiment/5
         [ResponseType(typeof(TTUT))]
-        public IHttpActionResult GetTTUT(int id)
+        public IHttpActionResult GetTTUT(string id)
         {
-            TTUT ttut = db.TTUTs.Find(id);
+            int ID = int.Parse(id);
+            TTUT ttut = db.TTUTs.Find(ID);
             if (ttut == null)
             {
                 return NotFound();

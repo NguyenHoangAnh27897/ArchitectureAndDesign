@@ -13,36 +13,37 @@
         <option value="http://localhost:25889/api/humanresource">Entity</option>
         <option value="http://localhost:25898/api/humanresource">Nhibernate</option>
     </select>
-</div>
-<div class="main-content">
-    <div class="section__content section__content--p30">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="table-responsive table--no-card m-b-30">
-                        <table class="table table-borderless table-striped table-earning">
-                            <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>Full Name</th>
-                                    <th>Date Of Birth</th>
-                                    <th>Gender</th>
-                                    <th class="text-right">Position</th>
-                                    <th>ID card</th>
-                                    <th class="text-right">Address</th>
-                                    <th class="text-right">Phone number</th>
-                                    <th class="text-right">Email</th>
-                                    <th class="text-right">Work at branch</th>
-                                </tr>
-                            </thead>
-                            <tbody id="tbody"></tbody>
-                        </table>
+    <div class="main-content">
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg">
+                        <div class="table-responsive table--no-card m-b-30">
+                            <table class="table table-borderless table-striped table-earning">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Full Name</th>
+                                        <th>Date Of Birth</th>
+                                        <th>Gender</th>
+                                        <th class="text-right">Position</th>
+                                        <th>ID card</th>
+                                        <th class="text-right">Address</th>
+                                        <th class="text-right">Phone number</th>
+                                        <th class="text-right">Email</th>
+                                        <th class="text-right">Work at branch</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody"></tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <script type="text/javascript">
     $(document).ready(function () {
         var $tbody = $('tbody#tbody'),
